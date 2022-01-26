@@ -1,0 +1,100 @@
+actions:
+- action: null
+  analysis_types: []
+  attr: ''
+  frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  window: 0
+cancelations:
+- analysis_types: []
+  attr: H1
+  frequency: 5
+  mapper: ''
+  ntrips: 3
+  start_count: 0
+  teststr: H1.bs<-5.0
+  window: 0
+- analysis_types:
+  - air
+  - unknown
+  - cocktail
+  - ic
+  - blank_unknown
+  - blank_air
+  - blank_cocktail
+  - blank
+  attr: Ar36
+  frequency: 5
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: Ar36.bs_corrected>10.0
+  window: 20
+- analysis_types:
+  - air
+  attr: Ar36
+  frequency: 5
+  mapper: ''
+  ntrips: 3
+  start_count: 75
+  teststr: Ar36.bs_corrected<0.01
+  window: 20
+- analysis_types: []
+  attr: Ar36
+  frequency: 5
+  mapper: ''
+  ntrips: 3
+  start_count: 75
+  teststr: Ar36<0.001
+  window: 20
+- analysis_types: []
+  attr: Ar40
+  frequency: 3
+  mapper: ''
+  ntrips: 3
+  start_count: 0
+  teststr: Ar40.bs_corrected>6000.0
+  window: 20
+modifications:
+- action: Skip Next Run
+  analysis_types: []
+  attr: ''
+  extraction_str: ''
+  frequency: 1
+  mapper: ''
+  nskip: 0
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  use_termination: false
+  use_truncation: false
+  window: 0
+post_run_terminations:
+- attr: CDD
+  teststr: CDD.deflection==2000
+pre_run_terminations:
+- attr: CDD
+  teststr: CDD.inactive
+- attr: CDD
+  teststr: CDD.deflection==2000
+terminations:
+- analysis_types: []
+  attr: ''
+  frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  window: 0
+truncations:
+- analysis_types: []
+  attr: ''
+  frequency: 1
+  mapper: ''
+  ntrips: 1
+  start_count: 0
+  teststr: ''
+  window: 0

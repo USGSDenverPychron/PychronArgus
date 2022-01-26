@@ -1,0 +1,22 @@
+- {active: false, color: 16753920, deflection_correction_sign: 1, deflection_name: H2,
+  index: 0.0, isotope: Ar40, kind: Faraday, name: H2, protection_threshold: null,
+  relative_position: 0.963553562, serial_id: b42, software_gain: 1.0, use_deflection: true,
+  ypadding: '0.1'}
+- {active: true, color: 16711680, deflection_correction_sign: 1, deflection_name: H1,
+  index: 1.0, isotope: Ar39, kind: Faraday, name: H1, protection_threshold: null,
+  relative_position: 0.981570944, serial_id: thermo13, software_gain: 1.0, use_deflection: true,
+  ypadding: '0.1'}
+- {active: true, color: 255, deflection_correction_sign: 1, deflection_name: AX, index: 2.0,
+  isotope: Ar38, kind: Faraday, name: AX, protection_threshold: null, relative_position: 1.0,
+  serial_id: thermo13, software_gain: 1.0, use_deflection: true, ypadding: '0.1'}
+- {active: false, color: 8388608, deflection_correction_sign: 1, deflection_name: L1,
+  index: 3.0, isotope: Ar37, kind: Faraday, name: L1, protection_threshold: null,
+  relative_position: 1.019457506, serial_id: b21, software_gain: 1.0, use_deflection: true,
+  ypadding: '0.1'}
+- {active: false, color: 0, deflection_correction_sign: 1, deflection_name: L2, index: 4.0,
+  isotope: Ar36, kind: Faraday, name: L2, protection_threshold: null, relative_position: 1.039696524,
+  serial_id: thermo13, software_gain: 1.0, use_deflection: true, ypadding: '0.1'}
+- {active: false, color: 3329330, deflection_correction_sign: -1, deflection_name: CDD,
+  index: 5.0, isotope: Ar35, kind: IonCounter, name: CDD, protection_threshold: 0.5,
+  relative_position: 1.058303063, serial_id: cdd, software_gain: 1.0, use_deflection: true,
+  ypadding: '0.1'}

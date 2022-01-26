@@ -1,0 +1,70 @@
+-
+  - name: HighVoltage
+    id: hv
+    min: 0
+    max: 5
+    compare: False
+  - name: ElectronEnergy
+    hardware_name: Electron Energy Set
+    id: electron_energy
+    min: 53
+    max: 153
+    compare: True
+    tolerance: 1.5
+  - name: YSymmetry
+    hardware_name: Y-Symmetry Set
+    id: y_symmetry
+    min: -100
+    max: 100
+    compare: True
+  - name: ZSymmetry
+    hardware_name: Z-Symmetry Set
+    id: z_symmetry
+    min: -100
+    max: 100
+    compare: True
+  - name: ZFocus
+    hardware_name: Z-Focus Set
+    id: z_focus
+    min: 0
+    max: 100
+    compare: True
+  - name: IonRepeller
+    hardware_name: Ion Repeller Set
+    id: ion_repeller
+    min: -22.5
+    max: 53.4
+    compare: True
+  - name: ExtractionLens
+    hardware_name: Extraction Lens Set
+    id: extraction_lens
+    min: 0
+    max: 100
+    compare: True
+  - name: TrapCurrent
+    id: trap.current
+    hardware_name: Trap Current Readback
+    min: 100
+    max: 300
+    compare: True
+    tolerance: 25
+  - name: TrapVoltage
+    hardware_name: Trap Voltage Readback
+    id: trap.voltage
+    min: 0
+    max: 1
+    compare: False
+
+-
+  - name: H2
+    compare: True
+  - name: H1
+    compare: True
+  - name: AX
+    compare: True
+  - name: L1
+    compare: True
+  - name: L2
+    compare: True
+  - name: CDD
+    compare: True
